@@ -1,9 +1,11 @@
-window.localStorage.setItem('name', "Jone Dou");
+let locStorage = window.localStorage;
 
-let name = window.localStorage.getItem('name');
+locStorage.setItem('name', "Jone Dou");
+
+let name = locStorage.getItem('name');
 console.log(name);
 
-window.localStorage.removeItem('name');
-window.localStorage.clear();
+//locStorage.removeItem('name');
+//locStorage.clear();
 
 // window.sessionStorage
